@@ -1,5 +1,7 @@
 <template>
-  <div class="about">
-    <h1>This is an about page</h1>
+  <div class="container">
+    <div class="col-lg-12">
+    <button type="buton" class="btn btn-success">submit</button>
+  </div>
   </div>
 </template>
