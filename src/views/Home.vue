@@ -59,7 +59,7 @@ export default {
         from : this.data.from, 
         to : this.data.to,
         message : this.data.message,
-        sended_on : new Date()
+        sended_on : new Date().toJSON().slice(0, 19).replace('T', ' ')
       }
       console.log(data)
       api

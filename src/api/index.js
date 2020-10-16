@@ -18,7 +18,7 @@ export default{
               "Access-Control-Allow-Headers": "Origin, Content-Type, X-Auth-Token"
             }
           }
-          var url = 'https://5e00f7635c99.ngrok.io' + uri
+          var url = 'https://api.agungmohmd.xyz' + uri
           console.log(method, uri, data)
     return axios({method, url, data, headers})
     }
